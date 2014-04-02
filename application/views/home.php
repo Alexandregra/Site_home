@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> <!-- Idioma da pagina. -->
 
 <head>
     <meta charset="utf-8">
