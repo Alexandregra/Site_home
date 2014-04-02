@@ -7,17 +7,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php base_url(); ?>">Alexandre livre</a>
+                <a class="navbar-brand" href="<?php echo base_url(); ?>">Alexandre livre</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="#Sobre">Sobre</a>
+                    <li><a href="sobre">Sobre</a>
                     </li>
-                    <li><a href="#Vitrine">Vitrine</a>
+                    <li><a href="vitrine">Vitrine</a>
                     </li>
-                    <li><a href="#Contato">Contato</a>
+                    <li><a href="contato">Contato</a>
                     </li>
                 </ul>
             </div>
