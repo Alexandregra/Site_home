@@ -19,7 +19,16 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('home');
+		$this->load->view('Meta'); //Tag meta e indexadores, css,fonts.
+                $this->load->view('Menu'); //Menu de cima do site
+                $this->load->view('Header'); // Primeiro painel com Git,twitter
+                $this->load->view('Selection_a'); // Segundo painel
+                $this->load->view('Selection_b'); // Terceiro painel
+                $this->load->view('Selection_c'); // Quarto painel
+                $this->load->view('Banner'); // Banner com as redes sociais
+                $this->load->view('Footer'); // Menu e nome da empresa
+                $this->load->view('Js'); // Arquivos Js
+                $this->load->view('End'); // Finalizando o codigo 
 	}
 }
 
